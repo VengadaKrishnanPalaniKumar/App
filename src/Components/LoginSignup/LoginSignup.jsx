@@ -14,7 +14,7 @@ const LoginSignup = () => {
       </div>
       <div classname="inputs">
         {action === "Login" ? (
-          <div></div>
+          <div>Test 1</div>
         ) : (
           <div className="input">
             <img src={user_icon} alt="" />
@@ -31,8 +31,8 @@ const LoginSignup = () => {
           <input placeholder="Password" type="password" />
         </div>
       </div>
-      {action === "Sing Up" ? (
-        <div></div>
+      {action === "Sign Up" ? (
+        <div>Test 2</div>
       ) : (
         <div className="forgot-password">
           Lost Password? <span>Click Here!</span>
